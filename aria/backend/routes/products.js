@@ -102,7 +102,10 @@ router.post("/compare", async (req, res) => {
   }
 
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({
+      model: "gemini-1.5-flash",
+      systemInstruction: "You are a product comparison expert. Return ONLY valid JSON with no markdown, no explanation, and no extra text.",
+    });
 
     const prompt = `Compare these products: ${products.join(" vs ")}.
     

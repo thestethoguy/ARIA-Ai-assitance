@@ -2,6 +2,7 @@
   "name": "aria-backend",
   "version": "1.0.0",
   "description": "ARIA Shopping Assistant - Backend API",
+  "private": true,
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -20,5 +21,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

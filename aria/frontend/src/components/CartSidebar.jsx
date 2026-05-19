@@ -63,7 +63,7 @@ export default function CartSidebar({ open, onClose }) {
                 {/* Thumbnail placeholder */}
                 <div style={{ width: 56, height: 56, borderRadius: "var(--radius-sm)", background: "var(--bg-card)", border: "1px solid var(--border)", overflow: "hidden", flexShrink: 0 }}>
                   <img
-                    src={`https://source.unsplash.com/112x112/?${encodeURIComponent(item.imageQuery || item.name)}&sig=${item.id}`}
+                    src={`https://picsum.photos/seed/${encodeURIComponent(item.id || item.name)}/112/112`}
                     alt={item.name}
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     onError={(e) => { e.target.style.display = "none"; }}

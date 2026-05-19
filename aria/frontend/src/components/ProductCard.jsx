@@ -24,7 +24,7 @@ export default function ProductCard({ product, index = 0 }) {
     setTimeout(() => setAdded(false), 1800);
   }
 
-  const imageUrl = `https://source.unsplash.com/400x300/?${encodeURIComponent(product.imageQuery || product.name)}&sig=${product.id}`;
+  const imageUrl = `https://picsum.photos/seed/${encodeURIComponent(product.id || product.name)}/400/300`;
 
   return (
     <div
