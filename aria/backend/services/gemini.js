@@ -55,7 +55,7 @@ const sessions = new Map();
 export function getOrCreateSession(sessionId) {
   if (!sessions.has(sessionId)) {
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
+      model: "gemini-2.0-flash",
       systemInstruction: ARIA_SYSTEM_PROMPT,
     });
     const chat = model.startChat({
