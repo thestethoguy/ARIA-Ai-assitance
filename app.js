@@ -3,8 +3,8 @@
 //  Handles: specific product queries, comparisons,
 //           cross-questioning flows, small talk
 // ══════════════════════════════════════════════════════════
-let url = "https://api.anthropic.com/v1/messages";
 // ── DOM ──────────────────────────────────────────────────
+
 const chatArea = document.getElementById("chatArea");
 const userInput = document.getElementById("userInput");
 const sendBtn = document.getElementById("sendBtn");

@@ -17,7 +17,7 @@ router.post("/search", async (req, res) => {
 
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
+      model: "gemini-2.5-flash",
       systemInstruction: `You are a product database. Return ONLY valid JSON arrays with product objects. No markdown, no explanation text.`,
     });
 
@@ -69,7 +69,7 @@ router.post("/recommend", async (req, res) => {
 
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
+      model: "gemini-2.5-flash",
       systemInstruction: `You are a product recommendation engine. Return ONLY valid JSON.`,
     });
 
@@ -102,7 +102,10 @@ router.post("/compare", async (req, res) => {
   }
 
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({
+      model: "gemini-2.5-flash",
+      systemInstruction: "You are a product comparison expert. Return ONLY valid JSON with no markdown, no explanation, and no extra text.",
+    });
 
     const prompt = `Compare these products: ${products.join(" vs ")}.
     
@@ -142,7 +145,7 @@ Use realistic Indian market prices. Return ONLY JSON, no markdown.`;
 router.get("/trending", async (req, res) => {
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
+      model: "gemini-2.5-flash",
       systemInstruction: "Return ONLY valid JSON, no markdown.",
     });
 
