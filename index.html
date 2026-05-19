@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARIA – AI Shopping Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="avatar">🛍️</div>
+            <div class="brand">
+                <div class="brand-name">ARIA</div>
+                <div class="brand-sub">AI Shopping Assistant</div>
+            </div>
+            <div class="status">
+                <span class="dot"></span>
+                Online
+            </div>
+        </header>
+
+        <!-- Chat Messages -->
+        <main class="chat-area" id="chatArea"></main>
+
+        <!-- Suggestion Chips -->
+        <div class="suggestions" id="suggestions">
+            <button class="chip">🎧 Best headphones under ₹5000</button>
+            <button class="chip">💻 Laptop for college student</button>
+            <button class="chip">📱 Smartphone with best camera</button>
+            <button class="chip">👟 Running shoes for beginners</button>
+            <button class="chip">⌚ Smartwatch for fitness</button>
+            <button class="chip">🎮 Gaming chair under ₹15000</button>
+        </div>
+
+        <!-- Input Area -->
+        <footer class="input-area">
+            <div class="input-box">
+                <textarea id="userInput" class="chat-input" rows="1"
+                    placeholder="Ask me about any product..."></textarea>
+                <button class="send-btn" id="sendBtn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="#0e1a16" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <p class="input-hint">ARIA can help compare products, suggest alternatives & find deals</p>
+        </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
