@@ -479,8 +479,6 @@ This project was built for **Kasparro Hackathon** by:
   </tr>
 </table>
 
-> 💡 *Special thanks to the original ARIA prototype by [@friends_github](https://github.com/friends_github), which served as the creative foundation for this project.*
-
 ---
 
 ## 📄 License
