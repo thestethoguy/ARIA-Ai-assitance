@@ -462,7 +462,7 @@ Instrument every interaction (search queries, product card clicks, add-to-cart e
 
 ## 👥 Team
 
-This project was built for **Kasparro Hackathon** by:
+This project was built for **Agentic Commerce Hackathon** by:
 
 <table>
   <tr>
@@ -488,6 +488,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 ---
 
 <p align="center">
-  <strong>Built with ✦ and Google Gemini for Kasparro Hackathon 2026</strong><br/>
+  <strong>Built with ✦ and Google Gemini for Agentic Commerce Hackathon 2026</strong><br/>
   <sub>ARIA · Adaptive Retail Intelligence Assistant</sub>
 </p>
