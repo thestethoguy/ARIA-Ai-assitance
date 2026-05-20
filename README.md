@@ -488,6 +488,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 ---
 
 <p align="center">
-  <strong>Built with ✦ and Google Gemini for [Hackathon Name] 2025</strong><br/>
+  <strong>Built with ✦ and Google Gemini for Kasparro Hackathon 2026</strong><br/>
   <sub>ARIA · Adaptive Retail Intelligence Assistant</sub>
 </p>
