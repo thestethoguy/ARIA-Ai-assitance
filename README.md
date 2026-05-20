@@ -473,7 +473,7 @@ This project was built for **Kasparro Hackathon** by:
     </td>
     <td align="center">
       <strong>Team Member 2</strong><br/>
-      <sub>UI/UX · Frontend Engineering</sub><br/>
+      <sub>UI/UX · Frontend and Backend Engineering</sub><br/>
       <a href="https://github.com/DivyanshShukla001">@Divyansh Shukla</a>
     </td>
   </tr>
