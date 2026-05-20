@@ -469,12 +469,12 @@ This project was built for **Kasparro Hackathon** by:
     <td align="center">
       <strong>Your Name</strong><br/>
       <sub>Full Stack · AI Integration</sub><br/>
-      <a href="https://github.com/thestethoguy">
+      <a href="https://github.com/thestethoguy">@Aman Aaryan</a>
     </td>
     <td align="center">
       <strong>Teammate Name</strong><br/>
       <sub>UI/UX · Frontend Engineering</sub><br/>
-      <a href="https://github.com/DivyanshShukla001">
+      <a href="https://github.com/DivyanshShukla001">@Divyansh Shukla</a>
     </td>
   </tr>
 </table>
