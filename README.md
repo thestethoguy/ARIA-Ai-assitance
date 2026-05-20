@@ -462,19 +462,19 @@ Instrument every interaction (search queries, product card clicks, add-to-cart e
 
 ## 👥 Team
 
-This project was built for **Kaparro Hackathon** by:
+This project was built for **Kasparro Hackathon** by:
 
 <table>
   <tr>
     <td align="center">
       <strong>Your Name</strong><br/>
       <sub>Full Stack · AI Integration</sub><br/>
-      <a href="https://github.com/thestethoguy">@your_github</a>
+      <a href="https://github.com/thestethoguy">
     </td>
     <td align="center">
       <strong>Teammate Name</strong><br/>
       <sub>UI/UX · Frontend Engineering</sub><br/>
-      <a href="https://github.com/DivyanshShukla001">@teammate_github</a>
+      <a href="https://github.com/DivyanshShukla001">
     </td>
   </tr>
 </table>
